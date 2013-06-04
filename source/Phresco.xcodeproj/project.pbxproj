@@ -1,0 +1,548 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B8CE4661463D90A00A6CD29 /* PhrescoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B8CE4651463D90A00A6CD29 /* PhrescoAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		7081249614612E1F00D19665 /* Phresco-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7081249514612E1F00D19665 /* Phresco-Info.plist */; };
+		7097CE1C1462842A0070885D /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7097CE1B1462842A0070885D /* RootViewController.m */; };
+		C382545314DBBA7800002F27 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C382545214DBBA7800002F27 /* RootViewController.xib */; };
+		C3899CC215BD9FBE00ED971A /* ConfigurationReader.m in Sources */ = {isa = PBXBuildFile; fileRef = C3899CC115BD9FBE00ED971A /* ConfigurationReader.m */; };
+		E88B0DCB152EF10F00780CAA /* phresco-env-config.xml in Resources */ = {isa = PBXBuildFile; fileRef = E88B0DCA152EF10F00780CAA /* phresco-env-config.xml */; };
+		EAFF7F30166394530074FD0B /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA3C918A1560DE8300402AE8 /* SenTestingKit.framework */; };
+		EAFF7F31166394530074FD0B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		EAFF7F32166394530074FD0B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		EAFF7F38166394540074FD0B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EAFF7F36166394540074FD0B /* InfoPlist.strings */; };
+		EAFF7F3B166394540074FD0B /* LogicTest.m in Sources */ = {isa = PBXBuildFile; fileRef = EAFF7F3A166394540074FD0B /* LogicTest.m */; };
+		EAFF7F40166394690074FD0B /* GDataXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = EAFF7F2616637C090074FD0B /* GDataXMLNode.m */; };
+		EAFF7F41166394690074FD0B /* OCUnitToJUnitLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = EAFF7F2716637C090074FD0B /* OCUnitToJUnitLogger.m */; };
+		EAFF7F42166394760074FD0B /* libxml2.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EAFF7F17166377C80074FD0B /* libxml2.2.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0B8CE4641463D90A00A6CD29 /* PhrescoAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhrescoAppDelegate.h; sourceTree = "<group>"; };
+		0B8CE4651463D90A00A6CD29 /* PhrescoAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhrescoAppDelegate.m; sourceTree = "<group>"; };
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D6058910D05DD3D006BFB54 /* Phresco.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Phresco.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7081249514612E1F00D19665 /* Phresco-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Phresco-Info.plist"; sourceTree = "<group>"; };
+		7097CE1A1462842A0070885D /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		7097CE1B1462842A0070885D /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		70FC9F8E146138060095A2E3 /* Phresco_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Phresco_Prefix.pch; sourceTree = "<group>"; };
+		C382545214DBBA7800002F27 /* RootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
+		C3899CC015BD9FBE00ED971A /* ConfigurationReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConfigurationReader.h; sourceTree = "<group>"; };
+		C3899CC115BD9FBE00ED971A /* ConfigurationReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConfigurationReader.m; sourceTree = "<group>"; };
+		E88B0DCA152EF10F00780CAA /* phresco-env-config.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "phresco-env-config.xml"; sourceTree = "<group>"; };
+		EA3C918A1560DE8300402AE8 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		EAFF7F17166377C80074FD0B /* libxml2.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.2.dylib; path = usr/lib/libxml2.2.dylib; sourceTree = SDKROOT; };
+		EAFF7F2516637C090074FD0B /* GDataXMLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataXMLNode.h; sourceTree = "<group>"; };
+		EAFF7F2616637C090074FD0B /* GDataXMLNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataXMLNode.m; sourceTree = "<group>"; };
+		EAFF7F2716637C090074FD0B /* OCUnitToJUnitLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCUnitToJUnitLogger.m; sourceTree = "<group>"; };
+		EAFF7F2F166394530074FD0B /* LogicTest.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LogicTest.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAFF7F35166394540074FD0B /* LogicTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LogicTest-Info.plist"; sourceTree = "<group>"; };
+		EAFF7F37166394540074FD0B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EAFF7F39166394540074FD0B /* LogicTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LogicTest.h; sourceTree = "<group>"; };
+		EAFF7F3A166394540074FD0B /* LogicTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LogicTest.m; sourceTree = "<group>"; };
+		EAFF7F3C166394540074FD0B /* LogicTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LogicTest-Prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAFF7F2B166394530074FD0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAFF7F42166394760074FD0B /* libxml2.2.dylib in Frameworks */,
+				EAFF7F30166394530074FD0B /* SenTestingKit.framework in Frameworks */,
+				EAFF7F31166394530074FD0B /* UIKit.framework in Frameworks */,
+				EAFF7F32166394530074FD0B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C382545214DBBA7800002F27 /* RootViewController.xib */,
+				0B8CE4641463D90A00A6CD29 /* PhrescoAppDelegate.h */,
+				0B8CE4651463D90A00A6CD29 /* PhrescoAppDelegate.m */,
+				7097CE1A1462842A0070885D /* RootViewController.h */,
+				7097CE1B1462842A0070885D /* RootViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* Phresco.app */,
+				EAFF7F2F166394530074FD0B /* LogicTest.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				EAFF7F17166377C80074FD0B /* libxml2.2.dylib */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				E883899C15342E9200154C18 /* NativeControllers */,
+				E88B0DCC152EF11E00780CAA /* ThirdParty */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				EAFF7F33166394530074FD0B /* LogicTest */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				70FC9F8E146138060095A2E3 /* Phresco_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E88B0DCA152EF10F00780CAA /* phresco-env-config.xml */,
+				7081249514612E1F00D19665 /* Phresco-Info.plist */,
+				A4D536491368113A00D7C4C4 /* Images */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+				EA3C918A1560DE8300402AE8 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A4D536491368113A00D7C4C4 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		E883899C15342E9200154C18 /* NativeControllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NativeControllers;
+			sourceTree = "<group>";
+		};
+		E88B0DCC152EF11E00780CAA /* ThirdParty */ = {
+			isa = PBXGroup;
+			children = (
+				EAFF7F2416637C090074FD0B /* OCUnitReportLogger-1.0 */,
+				E88B0DCD152EF11E00780CAA /* ConfigurationReader */,
+			);
+			path = ThirdParty;
+			sourceTree = "<group>";
+		};
+		E88B0DCD152EF11E00780CAA /* ConfigurationReader */ = {
+			isa = PBXGroup;
+			children = (
+				C3899CC015BD9FBE00ED971A /* ConfigurationReader.h */,
+				C3899CC115BD9FBE00ED971A /* ConfigurationReader.m */,
+			);
+			path = ConfigurationReader;
+			sourceTree = "<group>";
+		};
+		EAFF7F2416637C090074FD0B /* OCUnitReportLogger-1.0 */ = {
+			isa = PBXGroup;
+			children = (
+				EAFF7F2516637C090074FD0B /* GDataXMLNode.h */,
+				EAFF7F2616637C090074FD0B /* GDataXMLNode.m */,
+				EAFF7F2716637C090074FD0B /* OCUnitToJUnitLogger.m */,
+			);
+			path = "OCUnitReportLogger-1.0";
+			sourceTree = "<group>";
+		};
+		EAFF7F33166394530074FD0B /* LogicTest */ = {
+			isa = PBXGroup;
+			children = (
+				EAFF7F39166394540074FD0B /* LogicTest.h */,
+				EAFF7F3A166394540074FD0B /* LogicTest.m */,
+				EAFF7F34166394540074FD0B /* Supporting Files */,
+			);
+			path = LogicTest;
+			sourceTree = "<group>";
+		};
+		EAFF7F34166394540074FD0B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EAFF7F35166394540074FD0B /* LogicTest-Info.plist */,
+				EAFF7F36166394540074FD0B /* InfoPlist.strings */,
+				EAFF7F3C166394540074FD0B /* LogicTest-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* HelloWorld */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "HelloWorld" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HelloWorld;
+			productName = iShop;
+			productReference = 1D6058910D05DD3D006BFB54 /* Phresco.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EAFF7F2E166394530074FD0B /* LogicTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAFF7F3D166394540074FD0B /* Build configuration list for PBXNativeTarget "LogicTest" */;
+			buildPhases = (
+				EAFF7F2A166394530074FD0B /* Sources */,
+				EAFF7F2B166394530074FD0B /* Frameworks */,
+				EAFF7F2C166394530074FD0B /* Resources */,
+				EAFF7F2D166394530074FD0B /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LogicTest;
+			productName = LogicTest;
+			productReference = EAFF7F2F166394530074FD0B /* LogicTest.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Phresco" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				en,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* HelloWorld */,
+				EAFF7F2E166394530074FD0B /* LogicTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				7081249614612E1F00D19665 /* Phresco-Info.plist in Resources */,
+				C382545314DBBA7800002F27 /* RootViewController.xib in Resources */,
+				E88B0DCB152EF10F00780CAA /* phresco-env-config.xml in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAFF7F2C166394530074FD0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAFF7F38166394540074FD0B /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		EAFF7F2D166394530074FD0B /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				7097CE1C1462842A0070885D /* RootViewController.m in Sources */,
+				0B8CE4661463D90A00A6CD29 /* PhrescoAppDelegate.m in Sources */,
+				C3899CC215BD9FBE00ED971A /* ConfigurationReader.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAFF7F2A166394530074FD0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAFF7F40166394690074FD0B /* GDataXMLNode.m in Sources */,
+				EAFF7F41166394690074FD0B /* OCUnitToJUnitLogger.m in Sources */,
+				EAFF7F3B166394540074FD0B /* LogicTest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EAFF7F36166394540074FD0B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EAFF7F37166394540074FD0B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Mukund Balasubramanian (JJ5TQ44E7M)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Mukund Balasubramanian (JJ5TQ44E7M)";
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/ThirdParty/GHUnit\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Phresco_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = "";
+				GCC_VERSION = "";
+				INFOPLIST_FILE = "Phresco-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = Phresco;
+				PROVISIONING_PROFILE = "696ED0EE-22DB-4D9B-A4B4-8280CA7A181F";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "696ED0EE-22DB-4D9B-A4B4-8280CA7A181F";
+				SDKROOT = iphoneos4.3;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALID_ARCHS = "i386 armv6 armv7";
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Mukund Balasubramanian (JJ5TQ44E7M)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Mukund Balasubramanian (JJ5TQ44E7M)";
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/ThirdParty/GHUnit\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Phresco_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = "";
+				GCC_VERSION = "";
+				INFOPLIST_FILE = "Phresco-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = Phresco;
+				PROVISIONING_PROFILE = "696ED0EE-22DB-4D9B-A4B4-8280CA7A181F";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "696ED0EE-22DB-4D9B-A4B4-8280CA7A181F";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "i386 armv6 armv7";
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Mukund Balasubramanian (JJ5TQ44E7M)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Mukund Balasubramanian (JJ5TQ44E7M)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				PROVISIONING_PROFILE = "696ED0EE-22DB-4D9B-A4B4-8280CA7A181F";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "696ED0EE-22DB-4D9B-A4B4-8280CA7A181F";
+				SDKROOT = iphoneos4.2;
+				VALID_ARCHS = "i386 armv6 armv7";
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Mukund Balasubramanian (JJ5TQ44E7M)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Mukund Balasubramanian (JJ5TQ44E7M)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				PROVISIONING_PROFILE = "696ED0EE-22DB-4D9B-A4B4-8280CA7A181F";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "696ED0EE-22DB-4D9B-A4B4-8280CA7A181F";
+				SDKROOT = iphoneos4.2;
+				VALID_ARCHS = "i386 armv6 armv7";
+			};
+			name = Release;
+		};
+		EAFF7F3E166394540074FD0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LogicTest/LogicTest-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				HEADER_SEARCH_PATHS = /usr/include/libxml2;
+				INFOPLIST_FILE = "LogicTest/LogicTest-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TEST_AFTER_BUILD = YES;
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		EAFF7F3F166394540074FD0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LogicTest/LogicTest-Prefix.pch";
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				HEADER_SEARCH_PATHS = /usr/include/libxml2;
+				INFOPLIST_FILE = "LogicTest/LogicTest-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TEST_AFTER_BUILD = YES;
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "HelloWorld" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Phresco" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAFF7F3D166394540074FD0B /* Build configuration list for PBXNativeTarget "LogicTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAFF7F3E166394540074FD0B /* Debug */,
+				EAFF7F3F166394540074FD0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
